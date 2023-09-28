@@ -1,20 +1,45 @@
 <resources>
     <string name="app_name">Art Space</string>
-    <string name="denji">Denji</string>
-    <string name="denji_year">2023</string>
-    <string name="denji_description">Denji en sus momentos xd</string>
 
-    <string name="zero_two">Zero Two</string>
-    <string name="zero_two_year">2021</string>
-    <string name="zero_two_description">Zero Two en sus momentos xd</string>
+    <string name="img1">Center</string>
+    <string name="img1_year">2023</string>
+    <string name="img1_description">Family trip</string>
 
-    <string name="sanji">Sanji</string>
-    <string name="sanji_year">2022</string>
-    <string name="sanji_description">Sanji en sus momentos xd</string>
+    <string name="img10">Dinner Time</string>
+    <string name="img10_year">2023</string>
+    <string name="img10_description">Splendid night</string>
 
-    <string name="naruto">Naruto</string>
-    <string name="naruto_year">2020</string>
-    <string name="naruto_description">Naruto en sus momentos xd</string>
+    <string name="img3">Just us</string>
+    <string name="img3_year">2023</string>
+    <string name="img3_description">In a house</string>
+
+    <string name="img4">Jus us</string>
+    <string name="img4_year">2023</string>
+    <string name="img4_description">In another house</string>
+
+    <string name="img5">Lunch</string>
+    <string name="img5_year">2022</string>
+    <string name="img5_description">Last lunch before travel</string>
+
+    <string name="img6">Christmas</string>
+    <string name="img6_year">2022</string>
+    <string name="img6_description">Center of Cali</string>
+
+    <string name="img7">Candles</string>
+    <string name="img7_year">2022</string>
+    <string name="img7_description">7th of December</string>
+
+    <string name="img8">Revelion</string>
+    <string name="img8_year">2022</string>
+    <string name="img8_description">Revelion indeed</string>
+
+    <string name="img9">More Christmas</string>
+    <string name="img9_year">2022</string>
+    <string name="img9_description">Splendid night</string>
+
+    <string name="img2">Watching kites</string>
+    <string name="img2_year">2022</string>
+    <string name="img2_description">Autumn moments</string>
 
     <string name="previous">Previous</string>
     <string name="next">Next</string>

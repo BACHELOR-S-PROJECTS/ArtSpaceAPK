@@ -73,21 +73,34 @@ data class ArtworkInfo(
 @Composable
 fun ArtSpaceScreen(modifier: Modifier = Modifier) {
 
-    val firstArtwork = R.drawable.denji_face
-    val secondArtwork = R.drawable.zero_two_face
-    val thirdArtwork = R.drawable.sanji_face
-    val fourthArtwork = R.drawable.naruto_face
+    val firstArtwork = R.drawable.img1
+    val secondArtwork = R.drawable.img2
+    val thirdArtwork = R.drawable.img3
+    val fourthArtwork = R.drawable.img4
+    val fifthArtwork = R.drawable.img5
+    val sixthArtwork = R.drawable.img6
+    val seventhhArtwork = R.drawable.img7
+    val eighthArtwork = R.drawable.img8
+    val ninthArtwork = R.drawable.img9
+    val tenthArtwork = R.drawable.img10
+
 
     val context = LocalContext.current
     val previousButtonText = context.getString(R.string.previous)
     val nextButtonText = context.getString(R.string.next)
 
     val artworkInfoList = listOf(
-        ArtworkInfo(firstArtwork, R.string.denji, R.string.denji_year, R.string.denji_description),
-        ArtworkInfo(secondArtwork, R.string.zero_two, R.string.zero_two_year,R.string.zero_two_description),
-        ArtworkInfo(thirdArtwork, R.string.sanji, R.string.sanji_year,R.string.sanji_description),
-        ArtworkInfo(fourthArtwork, R.string.naruto, R.string.naruto_year,R.string.naruto_description)
-    )
+        ArtworkInfo(firstArtwork, R.string.img1, R.string.img1_year, R.string.img1_description),
+        ArtworkInfo(secondArtwork, R.string.img2, R.string.img2_year,R.string.img2_description),
+        ArtworkInfo(thirdArtwork, R.string.img3, R.string.img3_year,R.string.img3_description),
+        ArtworkInfo(fourthArtwork, R.string.img4, R.string.img4_year,R.string.img4_description),
+        ArtworkInfo(fifthArtwork, R.string.img5, R.string.img5_year, R.string.img5_description),
+        ArtworkInfo(sixthArtwork, R.string.img6, R.string.img6_year,R.string.img6_description),
+        ArtworkInfo(seventhhArtwork, R.string.img7, R.string.img7_year,R.string.img7_description),
+        ArtworkInfo(eighthArtwork, R.string.img8, R.string.img8_year,R.string.img8_description),
+        ArtworkInfo(ninthArtwork, R.string.img9, R.string.img9_year,R.string.img9_description),
+        ArtworkInfo(tenthArtwork, R.string.img10, R.string.img10_year,R.string.img10_description),
+        )
 
     var position by remember {
         mutableStateOf( 0 )
